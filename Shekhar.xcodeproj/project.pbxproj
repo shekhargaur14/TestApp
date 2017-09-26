@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		987442F3926065CC50675358 /* Pods_Shekhar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1BD9CB8511C2C106474DA5 /* Pods_Shekhar.framework */; };
 		992CC0241F79670F00E21839 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992CC0231F79670F00E21839 /* SecondVC.swift */; };
 		992CC0261F7968A100E21839 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992CC0251F7968A100E21839 /* LocationModel.swift */; };
 		992CC0281F796D7300E21839 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992CC0271F796D7300E21839 /* APIManager.swift */; };
 		992CC02A1F796E6E00E21839 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992CC0291F796E6E00E21839 /* Global.swift */; };
+		99B08CA41F7AC2620093B63F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B08CA31F7AC2620093B63F /* LoginVC.swift */; };
 		99C8F26D1F699009003D6AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8F26C1F699009003D6AD2 /* AppDelegate.swift */; };
 		99C8F26F1F699009003D6AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8F26E1F699009003D6AD2 /* ViewController.swift */; };
 		99C8F2721F699009003D6AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C8F2701F699009003D6AD2 /* Main.storyboard */; };
@@ -22,10 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1034EE149FDB1AE25E6156B8 /* Pods-Shekhar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shekhar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shekhar/Pods-Shekhar.debug.xcconfig"; sourceTree = "<group>"; };
 		992CC0231F79670F00E21839 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		992CC0251F7968A100E21839 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		992CC0271F796D7300E21839 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		992CC0291F796E6E00E21839 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		99B08CA31F7AC2620093B63F /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		99C8F2691F699009003D6AD2 /* Shekhar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shekhar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C8F26C1F699009003D6AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C8F26E1F699009003D6AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		99C8F27B1F699009003D6AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D326953E1F7A4B4100B67D9E /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		D32695411F7A4D3700B67D9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9D0C26851ABB0351CB91F46 /* Pods-Shekhar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shekhar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shekhar/Pods-Shekhar.release.xcconfig"; sourceTree = "<group>"; };
+		FF1BD9CB8511C2C106474DA5 /* Pods_Shekhar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shekhar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,12 +50,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32695421F7A4D3700B67D9E /* MapKit.framework in Frameworks */,
+				987442F3926065CC50675358 /* Pods_Shekhar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CEC0E3EDFFF4BFE0DE86E09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1034EE149FDB1AE25E6156B8 /* Pods-Shekhar.debug.xcconfig */,
+				E9D0C26851ABB0351CB91F46 /* Pods-Shekhar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		992CC0201F79669B00E21839 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +88,7 @@
 			children = (
 				992CC0231F79670F00E21839 /* SecondVC.swift */,
 				D326953E1F7A4B4100B67D9E /* FirstVC.swift */,
+				99B08CA31F7AC2620093B63F /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -82,6 +99,7 @@
 				99C8F26B1F699009003D6AD2 /* Shekhar */,
 				99C8F26A1F699009003D6AD2 /* Products */,
 				D32695401F7A4D3700B67D9E /* Frameworks */,
+				3CEC0E3EDFFF4BFE0DE86E09 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D32695411F7A4D3700B67D9E /* MapKit.framework */,
+				FF1BD9CB8511C2C106474DA5 /* Pods_Shekhar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C8F27E1F699009003D6AD2 /* Build configuration list for PBXNativeTarget "Shekhar" */;
 			buildPhases = (
+				43807AE654094177D66BFD98 /* [CP] Check Pods Manifest.lock */,
 				99C8F2651F699009003D6AD2 /* Sources */,
 				99C8F2661F699009003D6AD2 /* Frameworks */,
 				99C8F2671F699009003D6AD2 /* Resources */,
+				3725DDEA1A2212372B14F300 /* [CP] Embed Pods Frameworks */,
+				DF1AE3470ADC182B3C562B3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +213,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3725DDEA1A2212372B14F300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shekhar/Pods-Shekhar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43807AE654094177D66BFD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1AE3470ADC182B3C562B3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shekhar/Pods-Shekhar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99C8F2651F699009003D6AD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +271,7 @@
 				99C8F26F1F699009003D6AD2 /* ViewController.swift in Sources */,
 				99C8F26D1F699009003D6AD2 /* AppDelegate.swift in Sources */,
 				992CC0241F79670F00E21839 /* SecondVC.swift in Sources */,
+				99B08CA41F7AC2620093B63F /* LoginVC.swift in Sources */,
 				992CC0261F7968A100E21839 /* LocationModel.swift in Sources */,
 				99C8F2751F699009003D6AD2 /* Shekhar.xcdatamodeld in Sources */,
 				992CC02A1F796E6E00E21839 /* Global.swift in Sources */,
@@ -324,6 +395,7 @@
 		};
 		99C8F27F1F699009003D6AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1034EE149FDB1AE25E6156B8 /* Pods-Shekhar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QYSY2QC324;
@@ -337,6 +409,7 @@
 		};
 		99C8F2801F699009003D6AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0C26851ABB0351CB91F46 /* Pods-Shekhar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QYSY2QC324;

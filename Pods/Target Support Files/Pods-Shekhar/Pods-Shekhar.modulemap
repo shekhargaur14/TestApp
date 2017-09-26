@@ -1,0 +1,6 @@
+framework module Pods_Shekhar {
+  umbrella header "Pods-Shekhar-umbrella.h"
+
+  export *
+  module * { export * }
+}
