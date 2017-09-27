@@ -7,7 +7,8 @@
 //
 
 import UIKit
-//import <#module#>
+import CoreData
+
 
 class SecondVC: UIViewController {
 
@@ -21,22 +22,54 @@ class SecondVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         do {
-            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-            modelObject = try context.fetch(LocatioData.fetchRequest()) as NSArray
-            if modelObject.count == 0 {
-                APIManager.sharedInstance.getLocationData(success: { (result) in
-                    for item in result{
-                        let ss = item as! LocationModel
-                        let task = LocatioData(context: context)
-                        task.title = ss.title
-                        task.url = ss.thumbnailUrl
-                        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            if #available(iOS 10.0, *) {
+                let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+                modelObject = try context.fetch(LocatioData.fetchRequest()) as NSArray
+                if modelObject.count == 0 {
+                    APIManager.sharedInstance.getLocationData(success: { (result) in
+                        for item in result{
+                            let ss = item as! LocationModel
+                            let task = LocatioData(context: context)
+                            task.title = ss.title
+                            task.url = ss.thumbnailUrl
+                            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+                        }
+                        self.tableLocationData.reloadData()
+                    }) { (error) in
+                        print("")
                     }
-                    self.tableLocationData.reloadData()
-                }) { (error) in
-                    print("")
                 }
+            } else {
+                // Fallback on earlier versions
+                let managedObjectContext = (UIApplication.shared.delegate
+                    as! AppDelegate).managedObjectContext
+                let entityDescription = NSEntityDescription.entity(forEntityName: "LocatioData",
+                                                                   in: managedObjectContext)
+
+                let request = NSFetchRequest<NSFetchRequestResult>()
+                request.entity = entityDescription
+                do{
+                 modelObject = try managedObjectContext.fetch(request) as NSArray
+                    if modelObject.count == 0 {
+                        APIManager.sharedInstance.getLocationData(success: { (result) in
+                            for item in result{
+                                let ss = item as! LocationModel
+                                                                let task = LocatioData(entity: entityDescription!, insertInto: managedObjectContext)
+                                task.title = ss.title
+                                task.url = ss.thumbnailUrl
+                                (UIApplication.shared.delegate as! AppDelegate).saveContext()
+                            }
+                            self.tableLocationData.reloadData()
+                        }) { (error) in
+                            print("")
+                        }
+                    }
+                }catch{
+                    print("error")
+                }
+
             }
+            
         }catch {
             print("Fetching Failed")
         }
@@ -45,6 +78,7 @@ class SecondVC: UIViewController {
 }
 
 //MARK: Tableview delegate and datasource
+
 extension SecondVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return modelObject.count

@@ -41,8 +41,8 @@
                   symbolName = "Shekhar.APIManager.(getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.619546"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.068131"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -56,8 +56,8 @@
                   symbolName = "Shekhar.APIManager.(getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.626756"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.070448"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -89,8 +89,8 @@
                   symbolName = "Shekhar.APIManager.getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.635334"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.076102"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -104,8 +104,8 @@
                   symbolName = "Shekhar.APIManager.(getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.638395"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.078328"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -153,8 +153,8 @@
                   symbolName = "Shekhar.APIManager.getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.65579"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.088053"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -168,8 +168,8 @@
                   symbolName = "Shekhar.APIManager.(getLocationData (success : (__ObjC.NSArray) -&gt; (), failure : (__ObjC.NSError) -&gt; ()) -&gt; ()).(closure #1)"
                   moduleName = "Shekhar"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Shekhar/Downloads/shekhAR%202/Shekhar/Shekhar/APIManager.swift"
-                  timestampString = "528107064.65868"
+                  urlString = "file:///Users/Shekhar/Desktop/TestApp/Shekhar/APIManager.swift"
+                  timestampString = "528195645.090357"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -192,38 +192,6 @@
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "getLocationData(success:failure:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Shekhar/SecondVC.swift"
-            timestampString = "528107555.529108"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Shekhar/SecondVC.swift"
-            timestampString = "528107555.529108"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
